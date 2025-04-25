@@ -16,6 +16,14 @@
     src: url('./assets/fonts/Economica-Regular.ttf');
 }
 
+@mixin dFlex($fd:row, $jc:center, $ai:center, $g:unset) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $g;
+}
+
 html {
     scroll-behavior: smooth;
 }

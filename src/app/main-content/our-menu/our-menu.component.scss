@@ -1,3 +1,5 @@
+@import './../../../styles.scss';
+
 section {
     background-image: url("./../../../assets/img/section_our_menu_bg.jpg");
     background-size: cover;
@@ -9,10 +11,7 @@ section {
 }
 
 .img-name-price {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 30px;
+    @include dFlex($jc:space-evenly, $g:30px);
     >img {
         width: 352px;
         height: 352px;

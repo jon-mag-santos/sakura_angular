@@ -1,12 +1,12 @@
+@import './../../../../styles.scss';
+
 nav {
     font-family: 'Raleway';
     position: absolute;
     top: 32px;
     left: 32px;
     right: 32px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    @include dFlex($jc:space-between, $ai:normal);
     >img {
         width: 64px;
         height: 64px;

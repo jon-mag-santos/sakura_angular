@@ -1,14 +1,13 @@
+@import './../../../styles.scss';
+
 .order-list-container{
     font-family: 'Economica';
     font-weight: bold;
     font-size: 56px;
     text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+    @include dFlex($jc:space-evenly, $ai:normal);
     >div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include dFlex($fd:column, $jc:normal);
         >img {
             width: 128px;
             padding-bottom: 16px;

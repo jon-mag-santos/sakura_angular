@@ -1,0 +1,17 @@
+.order-list-container{
+    font-family: 'Economica';
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    >div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >img {
+            width: 128px;
+            padding-bottom: 16px;
+        }
+    }
+}

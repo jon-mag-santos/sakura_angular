@@ -1,0 +1,47 @@
+section {
+    background-image: url("./../../../assets/img/section_our_menu_bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.menu-card-container {
+    padding: 0 20px;
+}
+
+.img-name-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    >img {
+        width: 352px;
+        height: 352px;
+    }
+}
+
+.name {
+    font-family: 'Economica';
+    font-size: 56px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #675E54;
+}
+
+
+.right-cell {
+    text-align: right;
+}
+
+.left-cell {
+    text-align: left;
+    width: 60vh;
+}
+
+.pb-56 {
+    padding-bottom: 56px;
+}

@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    width: 100%;
+    height: 144px;
+    background-color: #0A141E;
+    >img {
+        height: 44px;
+        margin-right: 350px;
+    }
+    >div>a {
+        font-size: 24px;
+        color: whitesmoke;
+        text-decoration: none;
+        &:hover {
+            color: #9F0908;
+        }
+    }
+}
